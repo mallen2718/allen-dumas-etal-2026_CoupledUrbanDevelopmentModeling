@@ -11,23 +11,47 @@ A meta-repository creates a single point of access for someone to find all of th
 
 <!-- Get rid of the metarepo instructions (the two sections above this) once you're done. -->
 
-# lastname-etal_year_journal
+# allen-dumas-etal_2026_CoupledUrbanDevelopmentModeling
 
-**your Paper Title here (once published, include a link to the text)**
+Coupled Model Urban Development Scenarios for Evaluation of Future City-Scale Extreme Weather Impacts **(once published, include a link to the text)**
 
-First Last<sup>1\*</sup>, First Last<sup>1</sup>,  and First Last<sup>1, 2</sup>
+Melissa R. Allen-Dumas<sup>1\*</sup>, Bhartendu Pandey<sup>1</sup>,  Hang Li<sup>1</sup>, Vivek Kumar Singh<sup>1</sup>, 
+Ryan A. McManamay<sup>1</sup>,  Shovan Chowdhury<sup>1</sup>, Joshua R. New<sup>1</sup>, and Chris Vernon<sup>1, 2</sup>
 
-<sup>1 </sup>Pacific Northwest National Laboratory, Richland, WA, USA.
+<sup>1 </sup>Oak Ridge National Laboratory, Oak Ridge, TN, USA.
 
-<sup>2 </sup> Institute for Energy Analysis, Oak Ridge Associated Universities, Washington, DC, USA
+<sup>2 </sup> Baylor University, Waco, TX, USA
+
+<sup>2 </sup> Pacific Northwest National Laboratory, Richland, WA, USA
 
 \* corresponding author:  email@myorg.gov
 
 ## Abstract
-_your abstract here_
+Built structures in cities affect the energy balance of urban microclimate.
+To understand and quantify effects of urban form on local micrometeorology,
+high resolution urban parameter inputs to numerical simulation models
+are needed. Furthermore, with future overall average large-scale weather
+systems change and increasing urban population density, the capability to
+assess the impact of new buildings and their collective morphology (shape
+and arrangement) on local weather and energy demand is important. Yet
+new built infrastructure is difficult to project at decadal scale. To address
+this challenge, we have developed a chain of models that can produce ensembles
+of new neighborhoods that may be built in the future for a given city. 
+
+This model chain integrates population predictions, high-resolution city-scale
+Land Use Land Cover Change projections, Generative Adversarial Network
+(GAN) output of potential building footprints, heights and placement for
+new neighborhoods based on historical training examples and urban scaling
+theory, and future building archetypes with and without energy-saving technologies
+used in simulation with a building energy model. Here we describe
+the components of this modeling chain and demonstrate, using an example
+morphological projection under a population intensification scenario, how,
+under current and future weather regimes, new neighborhood morphologies
+and technologies in Los Angeles may evolve to facilitate energy efficient built
+areas.
 
 ## Journal reference
-_your journal reference_
+Computers, Environment and Urban Systems
 
 ## Code reference
 References for each minted software release for all code involved.  
