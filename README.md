@@ -8,7 +8,7 @@ A meta-repository creates a single point of access for someone to find all of th
 
 # allen-dumas-etal_2026_CoupledUrbanDevelopmentModeling
 
-Coupled Model Urban Development Scenarios for Evaluation of Future City-Scale Extreme Weather Impacts **(once published, include a link to the text)**
+Coupled Model Urban Development Scenarios for Evaluation of Future City-Scale Extreme Weather Impacts **(once published, will include a link to the text)**
 
 Melissa R. Allen-Dumas<sup>1\*</sup>, Bhartendu Pandey<sup>1</sup>,  Hang Li<sup>1</sup>, Vivek Kumar Singh<sup>1</sup>, 
 Ryan A. McManamay<sup>1</sup>,  Shovan Chowdhury<sup>1</sup>, Joshua R. New<sup>1</sup>, and Chris Vernon<sup>1, 2</sup>
@@ -19,7 +19,7 @@ Ryan A. McManamay<sup>1</sup>,  Shovan Chowdhury<sup>1</sup>, Joshua R. New<sup>
 
 <sup>2 </sup> Pacific Northwest National Laboratory, Richland, WA, USA
 
-\* corresponding author:  email@myorg.gov
+\* corresponding author:  allenmr@ornl.gov
 
 ## Abstract
 Built structures in cities affect the energy balance of urban microclimate.
