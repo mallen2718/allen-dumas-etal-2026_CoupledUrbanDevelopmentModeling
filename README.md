@@ -1,15 +1,10 @@
 [![DOI](https://zenodo.org/badge/265254045.svg)](https://zenodo.org/doi/10.5281/zenodo.10442485)
 
-<!-- Get rid of the metarepo instructions (the two sections below this) once you're done. -->
 
-# metarepo
-## [Check out the website for instructions](https://immm-sfa.github.io/metarepo)
 `metarepo` is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This repo is a template for creating your own metarepo.
 
 ## Purpose
-A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility. This repository should contain references to all minted data and software as well as any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
-
-<!-- Get rid of the metarepo instructions (the two sections above this) once you're done. -->
+A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility. This repository contains references to all minted data and software as well as any ancillary code used to transform the source data and execute the contributing software.
 
 # allen-dumas-etal_2026_CoupledUrbanDevelopmentModeling
 
@@ -55,47 +50,24 @@ Computers, Environment and Urban Systems
 
 ## Code reference
 https://github.com/IMMM-SFA/naturf
+
 https://github.com/pandeyb1/GANUrbanMorph
+
 AutoBEM software download: https://www.ornl.gov/content/automatic-building-energy-modeling-autobem
+
 McManamay, R. A., Raad, A., Vernon, C. R., Thurber, T., Gao, J., Powers, S., & O’Neill, B. (2024). Divergent urban land trajectories under alternative population projections within the Shared Socioeconomic Pathways. Environmental Research Letters, 19(4), 044025.
 
 ## Data reference
+McManamay, R., Vernon, C., Thurber, T., Gao, J., & O'Neill, B. (2024). Data for "Divergent urban land trajectories under alternative population projections within the shared socioeconomic pathways" (Version v1) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/2318472 .
 
 Pandey, B., & Allen-Dumas, M. (2025). Projected Urban Morphology of the Los Angeles Area by the Year 2100 (Version v2) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/2999982 .
 
 ### Input data
-New, J., Singh, V. K., & Li, H. (2025). Future Building Archetypes for Los Angeles (2100 Projection) (Version v1) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/3000560
+New, J., Singh, V. K., & Li, H. (2025). Future Building Archetypes for Los Angeles (2100 Projection) (Version v1) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/3000560 .
 
 Locations of TMY and fTMY data used:
-TMY : USA_CA_Los.Angeles.Intl.AP.722950_TMY3.zip (https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/USA_United_States_of_America/index.html#IDIL_Illinois-)
+TMY : USA_CA_Los.Angeles.Intl.AP.722950_TMY3.zip (https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/USA_United_States_of_America/index.html#IDIL_Illinois-) .
 
-FTMY: Shovan Chowdhury, Fengqi Li, Avery Stubbings, Joshua R. New, Deeksha Rastogi, and Shih-Chieh Kao (2023). "Future Typical Meteorological Year (fTMY) US Weather Files for Building Simulation for every US County (Cross-Model version-SSP5-RCP8.5)." ORNL internal Scientific and Technical Information (STI) report, doi: 10.5281/zenodo.10420668, Dec 2023.  (Future Typical Meteorological Year (fTMY) US Weather Files for Building Simulation for every US County in CONUS (Cross-Model Version-SSP5-RCP8.5))
+FTMY: Shovan Chowdhury, Fengqi Li, Avery Stubbings, Joshua R. New, Deeksha Rastogi, and Shih-Chieh Kao (2023). "Future Typical Meteorological Year (fTMY) US Weather Files for Building Simulation for every US County (Cross-Model version-SSP5-RCP8.5)." ORNL internal Scientific and Technical Information (STI) report, doi: 10.5281/zenodo.10420668, Dec 2023.  (Future Typical Meteorological Year (fTMY) US Weather Files for Building Simulation for every US County in CONUS (Cross-Model Version-SSP5-RCP8.5)) .
 
-## Reproduce my experiment
-Fill in detailed info here or link to other documentation to thoroughly walkthrough how to use the contents of this repository to reproduce your experiment. Below is an example.
-
-
-1. Install the software components required to conduct the experiment from [contributing modeling software](#contributing-modeling-software)
-2. Download and install the supporting [input data](#input-data) required to conduct the experiment
-3. Run the following scripts in the `workflow` directory to re-create this experiment:
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `step_one.py` | Script to run the first part of my experiment | `python3 step_one.py -f /path/to/inputdata/file_one.csv` |
-| `step_two.py` | Script to run the second part of my experiment | `python3 step_two.py -o /path/to/my/outputdir` |
-
-4. Download and unzip the [output data](#output-data) from my experiment 
-5. Run the following scripts in the `workflow` directory to compare my outputs to those from the publication
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `compare.py` | Script to compare my outputs to the original | `python3 compare.py --orig /path/to/original/data.csv --new /path/to/new/data.csv` |
-
-## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
-
-| Figure Number(s) | Script Name | Description | How to Run |
-| --- | --- | --- | --- |
-| 1, 2 | `generate_plot.py` | Description of figure, ie. "Plots the difference between our two scenarios" | `python3 generate_plot.py -input /path/to/inputs -output /path/to/outuptdir` |
-| 3 | `generate_figure.py` | Description of figure, ie. "Shows how the mean and peak differences are calculated" | `python3 generate_figure.py -input /path/to/inputs -output /path/to/outuptdir` |
 
