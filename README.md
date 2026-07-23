@@ -46,7 +46,7 @@ and technologies in Los Angeles may evolve to facilitate energy efficient built
 areas.
 
 ## Journal reference
-Computers, Environment and Urban Systems
+
 
 ## Code reference
 https://github.com/IMMM-SFA/naturf
